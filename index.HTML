@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/style.css">   
+</head>
+<body>
+    <section id="form-section">
+    <div class="form-container">
+        <div class="form-header">
+            <h2 form-title>
+                create Account
+            </h2>
+            <div class="show-error">
+                <p class="error-message">Something went wrong. You can't Registration successfully. Try to again. Thanks     
+                </p>
+
+            </div>
+        </div>
+        <form action="" class="input-form" id="input-form">
+        
+            <div class="form-control">
+                <label for="fullName">*Full Name</label>
+                <input type="Name" name="fullName" placeholder="Type your full name" id="fullName">
+                <small>This field is required, please input this from</small>
+            </div>
+            <div class="form-control">
+                <label for="userName">Define username</label>
+                <input type="userName" type="userName" placeholder="Type your unique name" id="username">
+                <small>This field is required, please input this from</small>
+
+            </div>
+            <div class="form-control">
+                <label for="email">Your Email</label>
+                <input type="email" name="email" placeholder="type your Email" id="email">
+                <small>This field is required, please input this from</small>
+
+            </div>
+            <div class="form-control">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="text" name="phoneNumber" placeholder="Type your Phone Number" id="phoneNumber">
+                <small>This field is required, please input this from</small>
+
+            </div>
+            <div class="form-control">
+                <label for="dateOfBirth">DOB</label>
+                <input type="date" name="dateOfBirth" id="dateOfBirth">
+            </div>
+            <div class="form-control">
+                <label for="gender">Your Gender</label>
+                <select name="gender" id="gender">
+                    <option disabled selected value=>---Select your gender-----</option>
+                    <option value="male">Male</option>
+                    <option value="feMale">Female</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="userBio">Write about Yourself</label>
+                <textarea name="userBio" id="userBio" cols="30" rows="5" placeholder="Write Something About Yourself"></textarea>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Type here a unique & strong password" id="password">
+                <small>This field is required, please input this from</small>
+
+            </div>
+            
+            <div class="form-control">
+                <label for="check-Password">*Confirm password</label>
+                <input type="password" name="checkPassword" placeholder="Retype your unique & strong password" id="checkPassword" >
+                <small>This field is required, please input this from</small>
+
+            </div>
+
+            <div class="form-control-tac">
+                <input type="checkbox" name="agree-tac" id="agree-tac">
+                <p class="mesage-tac">*I agree to the terms & conditions</p>
+            </div>
+          <button type="submit" name="submit" id="submit"   class="submit">Submit Now</button>
+        </form>
+    </div>
+    </section>
+    <script>
+ 
+    </script>
+    <script src="./Styles/dupplicate.js"></script>
+</body>
+</html>
